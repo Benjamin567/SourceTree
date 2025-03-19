@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CoolGame.sln"
+    "dotnet.defaultSolution": "CoolGameRepo.sln"
 }
