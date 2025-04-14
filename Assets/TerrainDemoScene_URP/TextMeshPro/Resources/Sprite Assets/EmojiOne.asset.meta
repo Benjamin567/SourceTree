@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ea71d2b497055542a370686753a73ba
+timeCreated: 1480316912
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213197
+  packageName: Unity Terrain - URP Demo Scene
+  packageVersion: 1.0.3
+  assetPath: Assets/TerrainDemoScene_URP/TextMeshPro/Resources/Sprite Assets/EmojiOne.asset
+  uploadId: 727820

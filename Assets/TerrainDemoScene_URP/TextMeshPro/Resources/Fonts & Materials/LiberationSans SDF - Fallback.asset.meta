@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fba296bb7530ce346a4777d9265d715a
+timeCreated: 1484171803
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213197
+  packageName: Unity Terrain - URP Demo Scene
+  packageVersion: 1.0.3
+  assetPath: Assets/TerrainDemoScene_URP/TextMeshPro/Resources/Fonts & Materials/LiberationSans
+    SDF - Fallback.asset
+  uploadId: 727820
