@@ -3873,7 +3873,9 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Requirement2","value":{"$content":"1cloth","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Requirement1","value":{"$content":"1leaf","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"InvoObj","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ItemForCrafting","value":{"$content":"1
+      woodsword","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1818440107}
 --- !u!114 &1107218395
@@ -8423,6 +8425,8 @@ Transform:
   m_Children:
   - {fileID: 252284451}
   - {fileID: 36265514}
+  - {fileID: 7905981876793150804}
+  - {fileID: 4176742032675794819}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061830839
@@ -9484,12 +9488,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3512016039317772123}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.36, y: 0.9881683, z: 3.95}
   m_LocalScale: {x: 1, y: 1.7, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2060693011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4291477142253495046
 MeshRenderer:
@@ -9933,8 +9937,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9077759101866592708}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.37687787, y: 0.00000003334683, z: 4.173152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.37687787, y: 0, z: 4.173152}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9950,7 +9954,7 @@ Transform:
   - {fileID: 7485259619748424856}
   - {fileID: 1673888372344464047}
   - {fileID: 3383936363385854700}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2060693011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7981618129281268421
 MeshFilter:
@@ -10073,5 +10077,3 @@ SceneRoots:
   - {fileID: 715732547}
   - {fileID: 1203928466}
   - {fileID: 2060693011}
-  - {fileID: 4176742032675794819}
-  - {fileID: 7905981876793150804}
