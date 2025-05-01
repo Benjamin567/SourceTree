@@ -11619,9 +11619,18 @@ GameObject:
   - component: {fileID: 9202210126813050883}
   - component: {fileID: 5875604977558836522}
   - component: {fileID: 783681105}
+<<<<<<< HEAD
   m_Layer: 0
   m_Name: Sword5_Gold
   m_TagString: Sword
+=======
+  - component: {fileID: 9202210126813050885}
+  - component: {fileID: 9202210126813050884}
+  - component: {fileID: 9202210126813050886}
+  m_Layer: 0
+  m_Name: Sword5_Gold
+  m_TagString: Untagged
+>>>>>>> 990b2b06e1565f9760d756e7261aae36ef31ce2f
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12110,13 +12119,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5922979170327996784}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0.3207015, y: -0.0144208465, z: 0.60640764, w: 0.7274699}
   m_LocalPosition: {x: -0.010594275, y: -0.094646364, z: 0.06845736}
+=======
+  m_LocalRotation: {x: -0.25919396, y: -0.116937116, z: 0.7765555, w: 0.5622329}
+  m_LocalPosition: {x: -0.069, y: 0.077, z: -0.042}
+>>>>>>> 990b2b06e1565f9760d756e7261aae36ef31ce2f
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1852576806722891130}
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: -26.687, y: -27.31, z: 86.224}
+=======
+  m_LocalEulerAnglesHint: {x: -6.306, y: -32.5, z: 110.03}
+>>>>>>> 990b2b06e1565f9760d756e7261aae36ef31ce2f
 --- !u!1 &7442015436826005974
 GameObject:
   m_ObjectHideFlags: 0
@@ -12585,6 +12603,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5922979170327996784}
   m_Mesh: {fileID: -1685661997809985041, guid: 26317383b8bbd254cb668812e676670b, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!114 &9202210126813050884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5922979170327996784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 72ac71862fa2f8349977b1ba13a0e27f, type: 2}
+--- !u!114 &9202210126813050885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5922979170327996784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collision
+      Obj","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject, UnityEngine.CoreModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Collision
+      Tag","value":null,"typeHandle":{"Identification":"System.String, mscorlib,
+      Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Wood
+      Sword DMG","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!54 &9202210126813050886
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5922979170327996784}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+>>>>>>> 990b2b06e1565f9760d756e7261aae36ef31ce2f
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
