@@ -3274,6 +3274,7 @@ GameObject:
   - component: {fileID: 626363830}
   - component: {fileID: 626363829}
   - component: {fileID: 626363828}
+  - component: {fileID: 626363831}
   m_Layer: 5
   m_Name: Invo
   m_TagString: Untagged
@@ -3368,6 +3369,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &626363831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626363826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &651070228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6103,6 +6119,7 @@ GameObject:
   - component: {fileID: 1147935529}
   - component: {fileID: 1147935531}
   - component: {fileID: 1147935530}
+  - component: {fileID: 1147935532}
   m_Layer: 5
   m_Name: InvoFilter
   m_TagString: Untagged
@@ -6167,6 +6184,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147935528}
   m_CullTransparentMesh: 1
+--- !u!114 &1147935532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147935528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1152258280
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,7 +6323,6 @@ GameObject:
   - component: {fileID: 1186033130}
   - component: {fileID: 1186033129}
   - component: {fileID: 1186033128}
-  - component: {fileID: 1186033134}
   m_Layer: 0
   m_Name: EnemyTestCube
   m_TagString: Untagged
@@ -6430,33 +6461,6 @@ Transform:
   - {fileID: 2126319992}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1186033134
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186033127}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1 &1215843773
 GameObject:
   m_ObjectHideFlags: 0
@@ -7910,7 +7914,7 @@ MonoBehaviour:
       woodsword","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 0}
+    - {fileID: 2018208531}
 --- !u!114 &1591155357
 MonoBehaviour:
   m_ObjectHideFlags: 0
