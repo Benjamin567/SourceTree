@@ -9,6 +9,9 @@ TagManager:
   - Interacable
   - Enemy
   - Patrol Point
+  - Terrain
+  - Cabin
+  - Tree
   layers:
   - Default
   - TransparentFX
