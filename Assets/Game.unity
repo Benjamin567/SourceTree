@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 28007277}
   - component: {fileID: 28007276}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Wood Dungeon
   m_TagString: Interacable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
