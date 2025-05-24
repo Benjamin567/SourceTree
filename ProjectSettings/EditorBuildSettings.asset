@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main/Scenes/BenGame.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/DungeonModularPack/Scenes/DemoScene.unity
+    guid: cc10df96022b19841ac18003dab61704
+  - enabled: 1
+    path: Assets/Game.unity
+    guid: 49503f71ef691ba4a9519f4fed6090b9
+  - enabled: 1
+    path: Assets/CompleMerge/Tutuorial.unity
+    guid: 182edf3c6940c2a459e0669197b3056b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 878cb3658b79d4a41a5fc3c9aee77f00, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
