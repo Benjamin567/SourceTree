@@ -20624,13 +20624,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Right
         Arm","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Patrol
-        Area","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Area","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RayHit","value":null,"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2969029074055945266, guid: 2a9a4bca6fd295044b521750db1c627a, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2969029074055945266, guid: 2a9a4bca6fd295044b521750db1c627a, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
