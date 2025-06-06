@@ -21640,9 +21640,10 @@ GameObject:
   - component: {fileID: 543450652820446410}
   - component: {fileID: 3469287836738261871}
   - component: {fileID: 1711813855963703205}
+  - component: {fileID: 3469287836738261872}
   m_Layer: 0
   m_Name: mediumhealthpotion
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21658,9 +21659,10 @@ GameObject:
   - component: {fileID: 543450653381900043}
   - component: {fileID: 3469287837298800814}
   - component: {fileID: 1711813855452580964}
+  - component: {fileID: 3469287837298800815}
   m_Layer: 0
   m_Name: smallhealthpotion
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22548,7 +22550,7 @@ GameObject:
   - component: {fileID: 3380070843999161037}
   m_Layer: 0
   m_Name: largehealthpotion
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22659,6 +22661,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148833797744}
   m_Mesh: {fileID: 8662410787939557834, guid: 605e437c1d871944fa716a75a6d62d20, type: 3}
+--- !u!65 &3469287836738261872
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148833797744}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10370346, y: 0.2085871, z: 0.10368875}
+  m_Center: {x: -0.000036790967, y: 0.10327881, z: -0.00007357821}
 --- !u!33 &3469287837298800814
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -22667,6 +22690,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149380574641}
   m_Mesh: {fileID: 7214874963237807513, guid: 4d19b51c95d71784f9d606a01f2b05d5, type: 3}
+--- !u!65 &3469287837298800815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149380574641}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.084468484, y: 0.20458727, z: 0.084468484}
+  m_Center: {x: -0.00006185286, y: 0.10155959, z: -0.000028116629}
 --- !u!136 &3495113568711609585
 CapsuleCollider:
   m_ObjectHideFlags: 0
