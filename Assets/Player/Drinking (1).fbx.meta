@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9560e9a62d574046af8b319cc45d1ba
+guid: bd8fc78e6c7eeda46908b8e8f3860a66
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -35,7 +35,7 @@ ModelImporter:
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 532
+      lastFrame: 351
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -526,13 +526,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Drinking(Clone)
+    - name: Drinking (1)(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: Drinking(Clone)
+      parentName: Drinking (1)(Clone)
       position: {x: 0.00041165017, y: 1.0336398, z: 0.005166027}
       rotation: {x: 0.015159761, y: 0.06820338, z: 0.01326483, w: 0.99746805}
       scale: {x: 1, y: 1, z: 1}
