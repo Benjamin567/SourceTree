@@ -1676,6 +1676,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244953919}
   m_Mesh: {fileID: -5894363749523588358, guid: ee52ceccec10ae646a2fb8ff368687f6, type: 3}
+--- !u!1 &255205410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6996940811732667081, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+  m_PrefabInstance: {fileID: 1234454955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &255205411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+  m_PrefabInstance: {fileID: 1234454955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &296299436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2180,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391917223}
   m_CullTransparentMesh: 1
+--- !u!4 &400897483 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4333895886221242005, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
+  m_PrefabInstance: {fileID: 5012438693473478101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &404773043
 GameObject:
   m_ObjectHideFlags: 0
@@ -6608,6 +6623,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180993069}
   m_CullTransparentMesh: 1
+--- !u!1001 &1234454955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 400897483}
+    m_Modifications:
+    - target: {fileID: 6996940811732667081, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_Name
+      value: HandlePotion.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996940811732667081, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0649
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0745
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0599
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.549602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.52033836
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.47102717
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.45312148
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -92.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -252.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661168548729983091, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 170.643
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
 --- !u!1 &1241712496
 GameObject:
   m_ObjectHideFlags: 0
@@ -8859,8 +8935,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bc371608988cb9f44b7e024c112d63b3, type: 3}
-  m_Resource: {fileID: 8300000, guid: bc371608988cb9f44b7e024c112d63b3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a95e4372a94bbeb4780cba5489d6314a, type: 3}
+  m_Resource: {fileID: 8300000, guid: a95e4372a94bbeb4780cba5489d6314a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21614,11 +21690,14 @@ PrefabInstance:
         attack","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Gombie
         Hp","value":{"$content":12,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Potion","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Potion
+        Heal #","value":{"$content":25.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1501470178906448630, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1501470178906448630, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
@@ -21631,7 +21710,7 @@ PrefabInstance:
     - target: {fileID: 1501470178906448630, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
       propertyPath: '_data._objectReferences.Array.data[4]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 255205410}
     - target: {fileID: 1501470178906448630, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
       propertyPath: '_data._objectReferences.Array.data[7]'
       value: 
@@ -22004,6 +22083,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 67.53088
       objectReference: {fileID: 0}
+    - target: {fileID: 4094163740207571752, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collision
+        Obj","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Collision
+        Tag","value":null,"typeHandle":{"Identification":"System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Wood
+        Sword DMG","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 4983471026839270712, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
@@ -22014,7 +22104,10 @@ PrefabInstance:
       objectReference: {fileID: 404773043}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4333895886221242005, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 255205411}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1063291196543431393, guid: f465f81e157923b48b19789e5ad5ccf4, type: 3}
       insertIndex: -1
