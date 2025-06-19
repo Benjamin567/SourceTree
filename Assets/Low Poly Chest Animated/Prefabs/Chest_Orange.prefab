@@ -67,9 +67,11 @@ GameObject:
   - component: {fileID: 3353555488130194286}
   - component: {fileID: 1359763860716981463}
   - component: {fileID: 6861155159764908996}
+  - component: {fileID: 3128236160107207620}
+  - component: {fileID: -2789293046590963015}
   m_Layer: 0
   m_Name: Chest_Orange
-  m_TagString: Untagged
+  m_TagString: Interacable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,6 +140,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6859704, y: 0.7022313, z: 0.53525233}
   m_Center: {x: -0.0030495524, y: 0.35858923, z: 0.0014112592}
+--- !u!114 &3128236160107207620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884705084735435304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &-2789293046590963015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884705084735435304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 892e7c0057072a2459c94229596b575e, type: 2}
 --- !u!1 &4083464521096556461
 GameObject:
   m_ObjectHideFlags: 0

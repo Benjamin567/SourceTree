@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/CompleMerge/Game Turtorial.unity
     guid: b4b8437aa4e6c844da836c9d5fbfeba5
   - enabled: 1
-    path: Assets/CompleMerge/Tutuorial.unity
+    path: Assets/Tutuorial.unity
     guid: 182edf3c6940c2a459e0669197b3056b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 878cb3658b79d4a41a5fc3c9aee77f00, type: 2}
